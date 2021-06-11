@@ -1,0 +1,49 @@
+/*
+color scheams 
+:root {
+    --col1: #000000;
+    --col2: #ff0000;
+    --col3: #181818;
+    --col4: rgba(88, 88, 88, 0.5);
+    --col5: rgba(100, 17, 17, 0.62);
+    --col6: #d8d8d8;
+  }
+  */
+
+
+body{
+margin:0;
+padding:0;
+}
+#navbar{
+display:flex;
+background-color: rgba(255, 92, 92, 0);
+width:100%;
+height:10vh;
+justify-content: space-around;
+align-items: center;
+}
+.navbar-ul{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    width:35%;
+}
+ ul li{
+    list-style-type: none;
+}
+a{
+    color:white;
+}
+
+#geekonix{
+max-width:100%;
+height:auto;    
+width:10%;
+}
+#main{
+    margin:-10vh;
+    display:block;
+    height:100vh;
+    background:linear-gradient(#000000,#ff0000);
+}
